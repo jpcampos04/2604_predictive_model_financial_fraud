@@ -14,7 +14,6 @@ Handle imbalanced data effectively
 Optimize performance under computational constraints
 
 ## ⚙️ Technologies Used
-- **SQL**
 - **Python**
 - Kaggel
 - Pandas
