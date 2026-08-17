@@ -40,12 +40,12 @@ Handle imbalanced data effectively.
 ### 🗂️ Dataset
 | Attribute | Detail |
 |---|---|
-| Source | Kaggel,  |
-| Size | [rows x columns] |
-| Time period | [e.g., Jan–Dec 2024] |
-| Target variable | [e.g., `dropout` (binary)] |
-| Key features | [list 5-8 most relevant columns] |
-| Link | [dataset URL if public] |
+| Source | Kaggel, Financial fraud |
+| Size | 1000000 x 24 |
+| Time period | Jan–Dec 2024 |
+| Target variable | 'is_fraud' |
+| Key features | 'is_fraud', 'kyc_verified', 'payment_method', 'transaction_amount', 'day_of_week', 'merchant_category', 'otp_used', 'is_night' |
+| Link | https://www.kaggle.com/code/darshanagopal2/large-scale-financial-fraud?utm_source=chatgpt.com |
 
 ### ⚙️ Technologies
 - **Language:** Python
@@ -71,7 +71,7 @@ Handle imbalanced data effectively.
 | Random Forest       | 0.8801 | 0.8107 | 0.9919 | 0.8922 | 0.8839 |
 | Gradient Boosting   | 0.8832 | 0.8107 | 0.9999 | 0.8954 | 0.8843 |
 
-**Best model:** [name] — [1-2 sentences on why it was selected: performance, interpretability, business fit]
+**Best model:** Gradient Boosting Classifier because it was the best classifier of the unbalanced set, was the slowest model.
 
 ### 📊 Results
 Gradient Boosting Classifier model achieved the best Recall metric 0.9999. Feature importance analysis showed that main feature to predict fraudulent transaction was the hour.
