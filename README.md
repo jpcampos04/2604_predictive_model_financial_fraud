@@ -45,7 +45,7 @@ Handle imbalanced data effectively.
 | Time period | Jan–Dec 2024 |
 | Target variable | 'is_fraud' |
 | Key features | 'is_fraud', 'kyc_verified', 'payment_method', 'transaction_amount', 'day_of_week', 'merchant_category', 'otp_used', 'is_night' |
-| Link | https://www.kaggle.com/code/darshanagopal2/large-scale-financial-fraud?utm_source=chatgpt.com |
+| Link | https://www.kaggle.com/code/darshanagopal2/large-scale-financial-fraud |
 
 ### ⚙️ Technologies
 - **Language:** Python
